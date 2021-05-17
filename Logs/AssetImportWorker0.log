@@ -1,0 +1,249 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'pt' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/igorr/Documents/workspace/ChickenGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57678
+Successfully changed project path to: C:/Users/igorr/Documents/workspace/ChickenGame
+C:/Users/igorr/Documents/workspace/ChickenGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 22.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/igorr/Documents/workspace/ChickenGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001759 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1265 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.2 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 2.607700 ms (FindLiveObjects: 0.338700 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.085700 ms  DeleteObjects: 0.099300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Chicken.prefab
+  artifactKey: Guid(1a9c73b36ecfc47458727d3bd38d70b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chicken.prefab using Guid(1a9c73b36ecfc47458727d3bd38d70b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acf69b38d96e9a7c2337215cf5fb553') in 0.093801 seconds
+  Import took 0.096113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/ChickenSpawner.prefab
+  artifactKey: Guid(a019c70a469508c48acf9d99169ac700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ChickenSpawner.prefab using Guid(a019c70a469508c48acf9d99169ac700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b61d30b99bb02daa9809dc962f6307') in 0.003881 seconds
+  Import took 0.005780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Prefabs/Egg.prefab
+  artifactKey: Guid(3e743217cf9f77e4d8514b08545e8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Egg.prefab using Guid(3e743217cf9f77e4d8514b08545e8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0408dadb1b2132e614ded7a34294aaa') in 0.009603 seconds
+  Import took 0.011695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Prefabs/Wall (0).prefab
+  artifactKey: Guid(d4776ae16da50fe4faed4aee1eb1d05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall (0).prefab using Guid(d4776ae16da50fe4faed4aee1eb1d05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7b0ca3d05bfd560664513a44409283') in 0.007319 seconds
+  Import took 0.008943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Prefabs/EggStore.prefab
+  artifactKey: Guid(f015fbdb9045d624dbfad171561d6629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore.prefab using Guid(f015fbdb9045d624dbfad171561d6629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4d090d6a445015e997b05423b9f058') in 0.005903 seconds
+  Import took 0.007727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/Ramp.prefab
+  artifactKey: Guid(5ec5c8f7e8baf5a4881244dab02a75c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ramp.prefab using Guid(5ec5c8f7e8baf5a4881244dab02a75c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aefafe31cab9f7658da8fc7c943403') in 0.006290 seconds
+  Import took 0.008016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(1d26470927621d7459331c5264886587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(1d26470927621d7459331c5264886587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca475a34fff61ff0b43b4c9fdb7eccfc') in 0.007193 seconds
+  Import took 0.009014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.341432 seconds.
+  path: Assets/Prefabs/EggStore.prefab
+  artifactKey: Guid(f015fbdb9045d624dbfad171561d6629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore.prefab using Guid(f015fbdb9045d624dbfad171561d6629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66905e3df1d7f69129fd7cd6c24a0f58') in 0.020800 seconds
+  Import took 0.023018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.138252 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(83e102cf6441a164498c8bf618805965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(83e102cf6441a164498c8bf618805965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800c3ac5285edd8fe6cad3d4bcec2696') in 0.001894 seconds
+  Import took 0.003959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(83e102cf6441a164498c8bf618805965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(83e102cf6441a164498c8bf618805965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800c3ac5285edd8fe6cad3d4bcec2696') in 0.001470 seconds
+  Import took 0.003102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.797137 seconds.
+  path: Assets/Prefabs/EggStore
+  artifactKey: Guid(1d77250c17b1c2142b482a77c1e25223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore using Guid(1d77250c17b1c2142b482a77c1e25223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da37a70db0e5517ae83d924755a6b3') in 0.001641 seconds
+  Import took 0.003506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.866452 seconds.
+  path: Assets/Prefabs/EggStore/Material
+  artifactKey: Guid(562ecc26c3e57d54ba9c0072d2d91a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material using Guid(562ecc26c3e57d54ba9c0072d2d91a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680ad731733c4725a1d900c38522817e') in 0.001767 seconds
+  Import took 0.003676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.324700 seconds.
+  path: Assets/Prefabs/EggStore/Material/New Material.mat
+  artifactKey: Guid(9b1e7a3f70889a649a8a00014b1eee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material/New Material.mat using Guid(9b1e7a3f70889a649a8a00014b1eee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727b063655826d8f378265d8beffb440') in 0.028499 seconds
+  Import took 0.030767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.844115 seconds.
+  path: Assets/Prefabs/EggStore/Material/Floor.mat
+  artifactKey: Guid(9b1e7a3f70889a649a8a00014b1eee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material/Floor.mat using Guid(9b1e7a3f70889a649a8a00014b1eee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59634e151126ca0b3a0376672cbf0df') in 0.010322 seconds
+  Import took 0.012323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 791.471601 seconds.
+  path: Assets/Prefabs/EggStore/Material/Wall.mat
+  artifactKey: Guid(bc7881548fba48c43a5330021b99db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material/Wall.mat using Guid(bc7881548fba48c43a5330021b99db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efc43c69af21016f201407b9a649860') in 0.022133 seconds
+  Import took 0.024472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.914122 seconds.
+  path: Assets/Prefabs/EggStore/Material/Rof.mat
+  artifactKey: Guid(0a5fb10d930b64d4abd44ffc4d264d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material/Rof.mat using Guid(0a5fb10d930b64d4abd44ffc4d264d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac8fc32bea6e8d29a1387193909cfdb') in 0.021499 seconds
+  Import took 0.023594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.645119 seconds.
+  path: Assets/Prefabs/EggStore/Material/Roof.mat
+  artifactKey: Guid(0a5fb10d930b64d4abd44ffc4d264d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material/Roof.mat using Guid(0a5fb10d930b64d4abd44ffc4d264d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f311ca4b5ff170baa74fd06321efe57') in 0.026627 seconds
+  Import took 0.028792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.313860 seconds.
+  path: Assets/Prefabs/EggStore/Material/Floor.mat
+  artifactKey: Guid(9b1e7a3f70889a649a8a00014b1eee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material/Floor.mat using Guid(9b1e7a3f70889a649a8a00014b1eee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fbdfd3b1b72f30c4b311b071ecbd34') in 0.008345 seconds
+  Import took 0.010674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefabs/EggStore/Material/Roof.mat
+  artifactKey: Guid(0a5fb10d930b64d4abd44ffc4d264d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material/Roof.mat using Guid(0a5fb10d930b64d4abd44ffc4d264d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7660b634a83d524b9d7df2035acb56c2') in 0.010110 seconds
+  Import took 0.012481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Prefabs/EggStore/Material/Wall.mat
+  artifactKey: Guid(bc7881548fba48c43a5330021b99db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EggStore/Material/Wall.mat using Guid(bc7881548fba48c43a5330021b99db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e93782c118a7e747564ec0612aec5d3') in 0.008430 seconds
+  Import took 0.010784 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1754.
+Total: 1.507200 ms (FindLiveObjects: 0.155400 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.281600 ms  DeleteObjects: 0.041500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
