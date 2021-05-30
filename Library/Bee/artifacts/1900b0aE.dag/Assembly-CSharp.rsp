@@ -319,6 +319,7 @@
 "Assets/Scripts/EggStore.cs"
 "Assets/Scripts/GameEngine.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/SceneLoader.cs"
 -langversion:8.0
 
 /deterministic
