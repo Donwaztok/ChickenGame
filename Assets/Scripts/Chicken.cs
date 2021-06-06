@@ -6,18 +6,16 @@ public class Chicken : MonoBehaviour {
 
 	[SerializeField] GameObject egg;
 	[SerializeField] int secToSpawnEgg = 10;
+	[SerializeField] int secToFood = 20;
 
 	Coroutine eggSpawner;
+	Coroutine chickenEating;
+	GameEngine gameEngine;
 
-
-	// Start is called before the first frame update
 	void Start() {
+		chickenEating = StartCoroutine(EatContinuously());
 		eggSpawner = StartCoroutine(DropEggContinuously());
-	}
-
-	// Update is called once per frame
-	void Update() {
-
+		gameEngine = FindObjectOfType<GameEngine>();
 	}
 
 	IEnumerator DropEggContinuously() {
@@ -28,6 +26,17 @@ public class Chicken : MonoBehaviour {
 				Quaternion.identity
 			) as GameObject;
 			yield return new WaitForSeconds(secToSpawnEgg);
+		}
+	}
+
+	IEnumerator EatContinuously() {
+		while (true) {
+			Debug.Log("aaa");
+			if (gameEngine) {
+				gameEngine.ChickenEating();
+				Debug.Log("b");
+			}
+			yield return new WaitForSeconds(secToFood);
 		}
 	}
 }

@@ -15,7 +15,7 @@ public class EggStore : MonoBehaviour {
 		Egg egg = other.gameObject.GetComponent<Egg>();
 		if (egg) {
 			Destroy(other.gameObject);
-            gameEngine.SellEgg();
+			gameEngine.SellEgg();
 		}
 	}
 }

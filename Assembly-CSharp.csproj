@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\EggStore.cs" />
+     <Compile Include="Assets\Scripts\EggDetector.cs" />
      <Compile Include="Assets\Scripts\GameEngine.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\Chicken.cs" />

@@ -44,3 +44,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chicken: {fileID: 575288093352294142, guid: 1a9c73b36ecfc47458727d3bd38d70b5, type: 3}
+  secToSpawnChicken: 21
+  initialChickenQty: 4
+  foodPrice: 10
+  initialMoney: 100
+  moneyPerEgg: 5
+  chickenText: {fileID: 0}
+  coinText: {fileID: 0}
+  timerText: {fileID: 0}

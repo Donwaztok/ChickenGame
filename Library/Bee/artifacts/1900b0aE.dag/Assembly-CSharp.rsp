@@ -316,6 +316,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Chicken.cs"
 "Assets/Scripts/Egg.cs"
+"Assets/Scripts/EggDetector.cs"
 "Assets/Scripts/EggStore.cs"
 "Assets/Scripts/GameEngine.cs"
 "Assets/Scripts/Player.cs"
