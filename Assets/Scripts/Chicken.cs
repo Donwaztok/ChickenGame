@@ -31,10 +31,8 @@ public class Chicken : MonoBehaviour {
 
 	IEnumerator EatContinuously() {
 		while (true) {
-			Debug.Log("aaa");
 			if (gameEngine) {
 				gameEngine.ChickenEating();
-				Debug.Log("b");
 			}
 			yield return new WaitForSeconds(secToFood);
 		}
